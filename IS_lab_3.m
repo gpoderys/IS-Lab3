@@ -1,7 +1,6 @@
 close all
 clear 
 clc
-
 %Duomenų paruošimas
 x =[0:1/22:1];
 d = ((1 + 0.6*sin(2*pi*x/0.7))+(0.3*sin(2*pi*x)))/2;
@@ -11,7 +10,6 @@ c1 = 0.18;
 c2 = 0.92;
 r1 = 0.25;
 r2 = 0.21;
-
 w1 = rand(1);
 w2 = rand(1);
 b = rand(1);
